@@ -20,4 +20,6 @@ add_executable(problem_mf Seminar1/problem_mf.c)
 add_executable(problem_hwf Seminar1/problem_hwf.c)
 
 add_executable(problem_pn Seminar2/problem_pn.c)
+add_executable(problem_se Seminar2/problem_se.c)
+add_executable(problem_tr Seminar2/problem_tr.c)
 
