@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.25)
+project(C_MFTI)
+
+SET(CMAKE_VERBOSE_MAKEFILE ON)
+set(CMAKE_CXX_STANDARD 20)
+add_compile_options(-Wall -Wextra -Wpedantic)
+
+add_executable(main main.cpp)
+add_executable(problem_rl problem_rl.c)
+add_executable(problem_cf problem_cf.c)
+add_executable(problem_ee problem_ee.c)
+add_executable(problem_de problem_de.c)
+add_executable(problem_ns problem_ns.c)
+add_executable(problem_fs problem_fs.c)
+add_executable(problem_rps problem_rps.c)
+add_executable(problem_fm problem_fm.c)
+add_executable(problem_pp problem_pp.c)
+add_executable(problem_sf problem_sf.c)
+add_executable(problem_mf problem_mf.c)
+add_executable(problem_hwf problem_hwf.c)
+
