@@ -25,4 +25,5 @@ add_executable(2-03-problem_tr Seminar2/problem_tr.c)
 add_executable(2-04-problem_ps Seminar2/problem_ps.c)
 add_executable(2-05-problem_gf Seminar2/problem_gf.c)
 add_executable(2-06-problem_lm Seminar2/problem_lm.c)
+add_executable(2-07-problem_bp Seminar2/problem_bp.c)
 
