@@ -67,7 +67,8 @@ void test(){
         else
             printf("...ERROR\n");
     }
-};
+}
+
 int main() {
     long long x, y, d, a, b;
     int res;

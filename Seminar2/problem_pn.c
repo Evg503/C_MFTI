@@ -36,7 +36,7 @@ print_arr(num *arr, num end) {
 
 num nth_prime(num n) {
     num *erath = calloc(n, sizeof(num));
-    size_t end = 0;
+    num end = 0;
     num p;
 
     for (num i = 2; end != n; ++i) {

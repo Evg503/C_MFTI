@@ -35,20 +35,20 @@ typedef int number;
 void match(number total)
 {
     number possible = total-1;
-    printf("%lld",total);
+    printf("%d",total);
     while (total>0)
     {
         number step = next_turn(total,possible);
         possible = 2*step;
         total -= step;
-        printf(".%lld", step);
+        printf(".%d", step);
     }
     printf("!\n");
 }
 int main() {
     number x = 0;
     int res;
-    res = scanf("%lld", &x);
+    res = scanf("%d", &x);
     assert(res == 1);
     assert(x>0);
     assert(x<INT_MAX);

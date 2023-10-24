@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.25)
+cmake_minimum_required(VERSION 3.22.1)
 project(C_MFTI)
 
 SET(CMAKE_VERBOSE_MAKEFILE ON)
