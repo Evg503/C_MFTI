@@ -4,9 +4,9 @@
 
 typedef int num;
 
-
-int main() {
-    num n = 0, b=0;
+int main()
+{
+    num n = 0, b = 0;
     unsigned char *arr;
     int res;
 
@@ -14,7 +14,8 @@ int main() {
     assert(res == 1);
     arr = malloc(n * 1);
 
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n; ++i)
+    {
         int byte;
         res = scanf("%d", &byte);
         assert(res == 1);
@@ -24,13 +25,15 @@ int main() {
     res = scanf("%d", &b);
     assert(res == 1);
 
-    if(b<8*n){
-        int idx = b>>3;
-        int bit = b&7;
-        arr[idx] ^= 1<<bit;
+    if (b < 8 * n)
+    {
+        int idx = b >> 3;
+        int bit = b & 7;
+        arr[idx] ^= 1 << bit;
     }
 
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n; ++i)
+    {
         printf("%d ", arr[i]);
     }
 
