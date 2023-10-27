@@ -6,8 +6,8 @@ typedef long long num;
 
 num gcd(num x, num y) {
     num q;
-    x = abs(x);
-    y = abs(y);
+    x = llabs(x);
+    y = llabs(y);
     if (y > x) {
         q = x;
         x = y;

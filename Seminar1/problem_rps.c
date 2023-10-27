@@ -47,4 +47,5 @@ int main() {
     res = scanf("%u%u%u", &a, &b, &n);
     assert(res == 3);
     r = spow_mod(a, b, n);
+    printf("%u\n", r);
 }

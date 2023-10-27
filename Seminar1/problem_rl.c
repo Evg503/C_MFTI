@@ -4,8 +4,8 @@
 
 long long gcd(long long x, long long y) {
     long long q;
-    x = abs(x);
-    y = abs(y);
+    x = llabs(x);
+    y = llabs(y);
     if (y > x) {
         q = x;
         x = y;
