@@ -31,3 +31,4 @@ add_executable(2-09-problem_bi Seminar2/problem_bi.c)
 add_executable(2-10-problem_pe Seminar2/problem_pe.c)
 
 add_executable(3-01-problem_mm Seminar3/problem_mm.c)
+add_executable(3-02-problem_fy Seminar3/problem_fy.c)
